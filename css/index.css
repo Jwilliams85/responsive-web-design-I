@@ -64,6 +64,12 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+#content {
+	width:100vw;
+	display: flex;
+}
+
 .links {
 	margin: 20px;
 	padding: 20px;
@@ -72,6 +78,7 @@ h1, h2, h3, h4, h5 {
 	width: 900px;
 }
 
+
 .top-navigation .links a {
 	text-decoration: none;
 	padding: 20px;
@@ -79,14 +86,30 @@ h1, h2, h3, h4, h5 {
 	color: gray;
 
 }
-
-.header-container {
+.main {
 	display:flex;
-	width: 200px;
+	/*width:100vw;*/
+	flex-direction: column;
+
+}
+.header {
+	display:flex;
+	justify-content:space-evenly;
+	width:100vw;
 }
 
+#top-section {
+	display:flex;
+	width: 100vw;
+	justify-content: space-around;
+}
+/*.header-container {
+	display:flex;
+	width: 200px;*/
+
+
 .top-content .header-container .globe-image {
-	margin-left:275px;
+	/*margin-left:275px;*/
 	margin-bottom: 300px;
 	margin-right: 500px;
 	width: 100px;
@@ -216,16 +239,35 @@ footer {
 }
 
 /*responsive*/
-@media(max-width: 500px) {
-	.top-navigation {
-	  width: 50%;
-	  align-self:center;
-	  background:pink;
-	}
 
+@media (max-width: 500px) {
+	#content {
+		width:100vw;
+	}
+	.top-navigation {
+	width: 50%;
+	
+	background:pink;
+	}
 	.nav_flex {
 		height:400px;
 		line-height: normal;
-		width: 100%;
-		
+		width: 100%} 
+	.links a {
+		width:100%;
+		margin:auto;
+		align-self:center;
+	}
+}
+
+ /*@media(max-width: 500px){<styles in here>}*/
+
+
+
+
+
+
+
+	
+
 	}
