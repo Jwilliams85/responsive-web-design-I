@@ -214,8 +214,18 @@ footer {
 	margin: 0px 500px 0px 500px;
 	padding:10px 10px;
 }
-/*
+
+/*responsive*/
 @media(max-width: 500px) {
-	.container {
-	  width: 500px;
-	}*/
+	.top-navigation {
+	  width: 50%;
+	  align-self:center;
+	  background:pink;
+	}
+
+	.nav_flex {
+		height:400px;
+		line-height: normal;
+		width: 100%;
+		
+	}
