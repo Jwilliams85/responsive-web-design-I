@@ -1,3 +1,133 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* Use your own code or past solution for Great Idea Web Page CSS here!*/
+
+.links {
+	margin: 20px;
+	padding: 20px;
+	color: gray;
+	display:flex;
+	background: red;
+	width: 840px;
+}
+.links a {
+	text-decoration: none;
+	padding: 20px;
+	color:gray;
+	margin-top: 20px;
+
+}
+
+.header-container {
+	display:flex;
+	background: yellow;
+	width: 500px;
+}
+
+.header-container img {
+	margin-left: 800px;
+	background: pink;
+}
+.globe-image{
+	margin-left: 600px;
+	background: pink;
+	width: 500px;
+	height: 500px;
+}
 
 
+.header-container h1 {
+	margin-left: 200px;
+	 padding: 10px;
+	 width: 200px;
+	background: blue;
+	font-size: 50px;
+}
+
+.logo {
+	margin-left:1000px;
+	margin-bottom: 100px;
+	padding: 5px;
+	height: 50px;
+	width:100px;
+	background: orange;
+}
+  
+
+h2 {
+	margin: 10px;
+	padding: 10px;
+
+}
+.Features-Container {
+
+	width: 20%;
+	height: 250px;
+	padding: 20px;
+	margin: 20px;
+	background: grey;
+}
+.About-Container {
+	width: 20%;
+	height: 30%;
+	padding: 20px;
+	margin-left: 200px;
+	
+}
+.Services-Container  {
+	margin: 10px;
+	padding:10px;
+	width: 20%;
+	height: 30%;
+} 
+
+.Product-Container  {
+	margin: 10px;
+	padding: 10px;
+	width: 20%;
+	height: 30%;
+	display: inline-block;
+}
+
+.Vision-Container {
+	padding:10px;
+	width: 20%;
+	height: 30%;
+	padding:10px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.bottom-paragraphs {
+	margin-left: 200px;
+	margin-right: 100px;
+    /*display: block;*/
+    width: 500px;
+    background: purple;
+    
+
+
+}
+.middle-img {
+	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+	
+.company_address {
+	white-space: pre;
+	text-align:left;
+}
+
+ 
+footer {
+	margin: 0px 500px 0px 500px;
+	padding:10px 10px;
+	
+}
+html {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid gray;
+
+}
