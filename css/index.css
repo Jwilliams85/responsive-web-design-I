@@ -221,8 +221,7 @@ footer {
 	}
 	.top-navigation {
 	width: 50%;
-	
-	background:pink;
+
 	}
 	.nav_flex {
 		height:400px;
@@ -244,18 +243,18 @@ footer {
 	.top-navigation .links {
 	width: 100%;
 	flex-direction:column;
-	background:pink;
 	/*align-items:center;*/
-	margin: 1px auto;
+	margin: 5px auto;
 	width:100vw;
-	
+	border-bottom: 1px solid gray;
 	}
 .links a {
 		text-align:center;
 		align-self:center;
 		margin:auto;
 		padding-bottom: 10px;
-		border-bottom:2 px solid gray 
+		border:2 px solid gray 
+		
 	
 	}
 
@@ -278,10 +277,23 @@ footer {
 	.bottom-content {
 		display: block;
 		width:100vw;
-	
-
+		margin-left:0px;
+		margin-right:0px;
 	}
 
+	.company_address {
+		width:100vw;
+	}
+	.logo {
+		margin-top:5px;
+	}
+	
+	
+	.main .globe-image {
+		width:100vw;
+		display:flex;
+		justify-content: center;
+	}
 	/*header-container{
 		height:400px;
 		line-height: normal;
