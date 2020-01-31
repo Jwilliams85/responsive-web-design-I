@@ -296,7 +296,7 @@ footer {
 		/*align-self:center;
 		vertical-align: top;*/
 	}
-}
+
 
  /*RESPONSIVE DESIGN MAX WIDTH 800*/
 
@@ -310,7 +310,6 @@ footer {
 	/*margin:100%;*/
 }	
 .top-navigation .links {
-	width:100%;
 	/*flex-direction:column;*/
 	/*align-items:center;*/
 	display:inline;
@@ -327,14 +326,14 @@ footer {
 	justify-content: center;
 	/*display: -webkit-flex;*/
 	/*padding: 100px;*/
-	display: flex;
-	/*width:100vw;*/
+	display: block;
+	width:100vw;
 	margin-left:0px;
 	margin-right:0px;
 	font-size:16px;
 	
 }
-.middle-img {
+.middle-pic .middle-img {
 		width:10px;
 		display: flex;
 		justify-content: center;
@@ -359,7 +358,7 @@ footer {
 	width:100vw;
 }
 
-.header-container .globe-image {
+.globe-image {
 	display:none;
 }
 
