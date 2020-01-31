@@ -243,22 +243,28 @@ footer {
 		/*justify-content: center;*/
 		/*display: flex;*/
 		/*display: -webkit-flex;*/
-		/*padding: 100px;*/
-		display: inline;
+		align-self:left;
+		padding-left: 20px;
+		padding-right:20px;
+		display: block;
+		margin-left:20px;
+		margin-right:20px;
 		width:100vw;
+		
+		
+	
 	}
 	.middle-img {
 		width:100vw;
 		display: flex;
 		justify-content: center;
-		margin-left: 0px;
-		margin-right: 0px;
+		margin-left: 20px;
+		margin-right: 20px;
+		
 	}
 	.bottom-content {
 		display: block;
 		width:100vw;
-		margin-left:0px;
-		margin-right:0px;
 	}
 
 	.company_address {
@@ -267,8 +273,9 @@ footer {
 		padding-bottom:5px;
 	}
 	.footer {
-		margin-top:5px;
+		margin-top:50px;
 		padding: 10px;
+		
 	}
 	/*.logo {
 		margin-top:1px;
@@ -327,13 +334,13 @@ footer {
 	font-size:16px;
 	
 }
-
 .middle-img {
 		width:10px;
 		display: flex;
 		justify-content: center;
 		margin-left: 0px;
 		margin-right: 0px;
+
 		
 }
 .bottom-content {
@@ -352,7 +359,7 @@ footer {
 	width:100vw;
 }
 
-.globe-image {
+.header-container .globe-image {
 	display:none;
 }
 
