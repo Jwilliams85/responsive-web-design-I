@@ -276,10 +276,8 @@ footer {
 	}
 	
 	
-	.main .globe-image {
-		width:100vw;
-		display:flex;
-		justify-content: center;
+	.globe-image {
+		display:none;
 	}
 	/*header-container{
 		height:400px;
@@ -305,7 +303,7 @@ footer {
 	margin:100%;
 }	
 .top-navigation .links {
-	width: 100%;
+	width:100%;
 	/*flex-direction:column;*/
 	/*align-items:center;*/
 	display:inline;
@@ -351,14 +349,9 @@ footer {
 .company_address {
 	width:100vw;
 }
-.logo {
+
+.globe-image {
 	display:none;
-
-}
-
-
-!globe-image {
-	visibility: none;
 }
 
 .footer {
