@@ -218,16 +218,23 @@ footer {
 /*RESPONSIVE DESIGN MAX-WIDTH 500PX*/
 
 @media (max-width: 500px) {
-	#content {
-		width:100vw;
+	.main {
+		width:50%;
+		text-align:center;
 	}
-.top-navigation .links {
+.header {
+	height:400px;
+	line-height: normal;
+	width:100%;
+}
+.links {
 		align-items:center;
 		margin: 1px auto;
-		width:100vw;
+		/*width:100vw;*/
 		flex-direction:column;
-		border:1px solid gray;
-	
+		/*border:1px solid gray;
+		padding:20px;
+		display:block;*/
 	}
 .links a {
 		text-align:center;
@@ -235,7 +242,7 @@ footer {
 		margin:auto;
 		padding-bottom: 10px;
 		border-bottom:1px solid gray;
-
+		/*display:block;*/
 	}
 
 	.top-paragraph {
@@ -244,19 +251,17 @@ footer {
 		/*display: flex;*/
 		/*display: -webkit-flex;*/
 		align-self:left;
-		padding-left: 20px;
-		padding-right:20px;
+		padding-left: 30px;
+		padding-right:30px;
 		display: block;
 		margin-left:20px;
 		margin-right:20px;
 		width:100vw;
-		
-		
 	
 	}
-	.middle-img {
+	.middle-pic {
 		width:100vw;
-		display: flex;
+		display:block;
 		justify-content: center;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -283,7 +288,7 @@ footer {
 	}*/
 	
 	
-	.globe-image {
+	.globe-image{
 		display:none;
 	}
 	/*header-container{
@@ -309,13 +314,13 @@ footer {
 	width:10vw;
 	/*margin:100%;*/
 }	
-.top-navigation .links {
+.top-navigation .links  {
 	/*flex-direction:column;*/
 	/*align-items:center;*/
 	display:inline;
 
 }
-.links a {
+.links a{
 	text-align:center;
 	align-self:center;
 	margin:auto;
@@ -333,7 +338,7 @@ footer {
 	font-size:16px;
 	
 }
-.middle-pic .middle-img {
+.middle-img {
 		width:10px;
 		display: flex;
 		justify-content: center;
